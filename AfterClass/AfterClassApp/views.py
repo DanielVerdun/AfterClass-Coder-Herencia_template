@@ -13,3 +13,14 @@ def template2(request):
 
 def template3(request):
     return render(request, 'Prueba/template3.html')
+
+#-----------------------------------------------//-------------------------------------
+#Vistas que  trabajan con bootstrap
+def servicios(request):
+    return render(request, "Prueba/servicios.html")
+
+def nosotros(request):
+    return render(request, "Prueba/nosotros.html")
+
+def contacto(request):
+    return render(request, "Prueba/contacto.html")
